@@ -6,6 +6,12 @@ This Repository is about Development of Simple Laravel React Todo Application
 
 - Clone the Repository 
 
+
+- Copy .env.example to .env file
+    ```sh
+        cp .env.example .env
+    ```
+
 - Run Docker Compose to create Container with full feature of this Repo
     ```sh
         docker-compose up
