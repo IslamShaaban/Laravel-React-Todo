@@ -8,7 +8,7 @@ services:
       - .:/todolist
     env_file: .env
     working_dir: /todolist
-    command: bash -c './vendor/bin/phpunit && php artisan migrate && php artisan serve --host 0.0.0.0'
+    command: bash -c 'php artisan migrate && php artisan serve --host 0.0.0.0'
     depends_on:
       - db
     links:
