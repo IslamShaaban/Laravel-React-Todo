@@ -1,0 +1,61 @@
+.todo{
+    border-bottom: 1px solid #2980b9;
+    color: #fff;
+    background: #3498db;
+    font-weight: bold;
+    display: grid;
+    width: 400px;
+    grid-template-columns: 10fr 1fr;
+    cursor: pointer;
+}
+  
+.todo-container{
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 0fr 1fr;
+}
+
+.todo-container .check-mark{
+    padding: 8px 10px 0;
+    opacity: 0;
+}
+    
+.done{
+    background: #2980b9;
+    border-bottom: 1px solid #3498db; 
+}
+
+.done p{
+    text-decoration: line-through;
+}
+
+.done .check-mark{
+    opacity: 1;
+    text-decoration: none !important;
+}
+  
+  
+.todo-container p{
+    display: inline;
+    padding-top: 5px;
+}
+  
+.todo:hover{
+    background: #2980b9;
+    border-bottom: 1px solid #3498db;
+}
+  
+.close-btn-container{
+    text-align: center;
+    padding-top: 10px;
+    width: 50px;
+}
+  
+  
+.close-btn-container:hover{
+    background: #e74c3c;
+}
+  
+.remove-mark{
+    cursor: pointer;
+}  
