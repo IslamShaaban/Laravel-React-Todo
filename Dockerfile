@@ -9,6 +9,6 @@ WORKDIR /todolist
 COPY . /todolist
 RUN composer install
 RUN php artisan config:clear
-RUN npm install -g npm@7.19
+RUN npm install -g npm@7.19.1
 RUN npm install
 RUN npm run dev
